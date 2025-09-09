@@ -30,7 +30,7 @@ export const Sponsors = () => {
                 onClick={() => {
                   // In a real implementation, this would trigger a PDF download
                   alert(
-                    "Sponsor Kit PDF download will be available soon. Please contact sponsorships@artifactfestival.com for more information."
+                    "Sponsor Kit PDF download will be available soon. Please contact sponsorships@artifact.com for more information."
                   );
                 }}
                 className="bg-gradient-to-r from-yellow-500 to-orange-500 text-black px-8 py-4 rounded-full text-lg font-semibold hover:shadow-2xl hover:shadow-orange-500/25 transition-all duration-300 transform hover:scale-105"
@@ -57,10 +57,10 @@ export const Sponsors = () => {
               Interested in becoming a sponsor or partner?
             </p>
             <a
-              href="mailto:sponsorships@artifactfestival.com"
+              href="mailto:sponsorships@artifact.com"
               className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300 font-semibold"
             >
-              📧 sponsorships@artifactfestival.com
+              📧 sponsorships@artifact.com
             </a>
           </div>
         </div>

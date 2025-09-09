@@ -1,7 +1,7 @@
 
 "use client";
 import { useState, useEffect } from "react";
-import logo from "@/assets/images/logo5.png"
+import logo from "@/assets/images/logo5.png";
 import Image from "next/image";
 
 export const HeroSection = () => {
@@ -95,11 +95,7 @@ export const HeroSection = () => {
             }`}
           >
             {/* Background Patterns based on slide type */}
-            <div
-              className={`absolute inset-0 ${getBackgroundClass(
-                slide.bgPattern
-              )}`}
-            >
+            <div className="absolute inset-0 w-full h-full">
               {/* Colorful overlay patterns */}
               {slide.bgPattern === "colorful-squiggles" && (
                 <div className="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black">
@@ -165,30 +161,13 @@ export const HeroSection = () => {
                   {/* ARTiFACT Logo */}
                   <div className="mb-8">
                     <div className="inline-flex items-center gap-3 mb-4">
-                      {/* <div className="w-12 h-12 bg-gradient-to-br from-cyan-400 to-purple-600 rounded-lg flex items-center justify-center">
-                        <div className="w-8 h-8 border-2 border-white rounded transform rotate-12">
-                          <div className="w-full h-full bg-gradient-to-br from-yellow-400 to-pink-400 rounded opacity-80"></div>
-                        </div>
-                      </div> */}
                       <div className="flex items-center bg-white justify-center gap-4 mb-2">
-                        {/* <img
-                          src="/api/placeholder/200/60"
-                          alt="ARTiFACT Festival Logo"
-                          className="h-12 md:h-16 w-auto object-contain"
-                        /> */}
-
                         <Image
                           alt="carousel image"
                           src={logo}
-                          // className=" object-cover"
                           className="h-12 text-white md:h-16 w-auto object-contain"
-                          // width={100}
-                          // height={100}
                         />
                       </div>
-                      {/* <h1 className="text-4xl md:text-6xl font-bold text-white">
-                        ARTiFACT
-                      </h1> */}
                     </div>
 
                     <div className="text-cyan-400 text-sm font-mono tracking-wider mb-6">
@@ -243,10 +222,10 @@ export const HeroSection = () => {
                     <p className="text-gray-400 mb-2">For enquiries</p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-sm">
                       <a
-                        href="mailto:inquiries@artifactfestival.com"
+                        href="mailto:inquiries@artifact.com"
                         className="text-cyan-400 hover:text-cyan-300"
                       >
-                        📧 inquiries@artifactfestival.com
+                        📧 inquiries@artifact.com
                       </a>
                       <span className="hidden sm:block text-gray-600">|</span>
                       <span className="text-gray-400">
@@ -310,8 +289,3 @@ export const HeroSection = () => {
     </section>
   );
 };
-
-// Helper function for background classes
-function getBackgroundClass(): string {
-  return "w-full h-full";
-}
