@@ -25,40 +25,40 @@ export const Footer = () => {
                 <p className="text-white font-medium">Festival Director</p>
                 <p>Olawunmi Oyedeji</p>
                 <a
-                  href="mailto:ola@artifact.com"
+                  href="mailto:ola@artifactfestival.com"
                   className="text-cyan-400 hover:text-cyan-300"
                 >
-                  📧 ola@artifact.com
+                  📧 ola@artifactfestival.com
                 </a>
               </div>
 
               <div className="pt-4">
                 <p className="text-white font-medium">General Inquiries</p>
                 <a
-                  href="mailto:info@artifact.com"
+                  href="mailto:info@artifactfestival.com"
                   className="text-cyan-400 hover:text-cyan-300"
                 >
-                  📧 info@artifact.com
+                  📧 info@artifactfestival.com
                 </a>
               </div>
 
               <div>
                 <p className="text-white font-medium">Sponsorships</p>
                 <a
-                  href="mailto:sponsorships@artifact.com"
+                  href="mailto:sponsorships@artifactfestival.com"
                   className="text-cyan-400 hover:text-cyan-300"
                 >
-                  📧 sponsorships@artifact.com
+                  📧 sponsorships@artifactfestival.com
                 </a>
               </div>
 
               <div>
                 <p className="text-white font-medium">Other Inquiries</p>
                 <a
-                  href="mailto:inquiries@artifact.com"
+                  href="mailto:inquiries@artifactfestival.com"
                   className="text-cyan-400 hover:text-cyan-300"
                 >
-                  📧 inquiries@artifact.com
+                  📧 inquiries@artifactfestival.com
                 </a>
               </div>
             </div>
@@ -69,9 +69,9 @@ export const Footer = () => {
             <div className="space-y-3 text-gray-400">
               <div>
                 <p className="text-white font-medium">Venue</p>
-                <p>Magic Box</p>
-                <p>1933 S. Broadway</p>
-                <p>Los Angeles, CA</p>
+                <p>Famecast</p>
+                <p>1533 26th Street</p>
+                <p>Santa Monica 90404 LA, CA.</p>
               </div>
 
               <div className="pt-4">
