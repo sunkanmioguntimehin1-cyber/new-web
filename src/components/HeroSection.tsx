@@ -312,6 +312,6 @@ export const HeroSection = () => {
 };
 
 // Helper function for background classes
-function getBackgroundClass(pattern: string): string {
+function getBackgroundClass(): string {
   return "w-full h-full";
 }
