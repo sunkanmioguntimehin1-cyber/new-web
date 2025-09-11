@@ -27,7 +27,7 @@ export const FAQ = () => {
         },
         {
           q: "What are the costs for sponsors?",
-          a: "Sponsorship packages vary based on level and activation requirements. Contact sponsorships@artifact.com for detailed pricing and custom packages.",
+          a: "Sponsorship packages vary based on level and activation requirements. Contact sponsorships@artifactfestival.com for detailed pricing and custom packages.",
         },
       ],
     },
@@ -155,10 +155,10 @@ export const FAQ = () => {
               with our team.
             </p>
             <a
-              href="mailto:inquiries@artifact.com"
+              href="mailto:inquiries@artifactfestival.com"
               className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg hover:shadow-cyan-500/25 transition-all duration-300"
             >
-              📧 inquiries@artifact.com
+              📧 inquiries@artifactfestival.com
             </a>
           </div>
         </div>

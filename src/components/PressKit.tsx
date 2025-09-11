@@ -77,10 +77,10 @@ export const PressKit = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <a
-                  href="mailto:info@artifact.com"
+                  href="mailto:info@artifactfestival.com"
                   className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300 font-semibold"
                 >
-                  📧 info@artifact.com
+                  📧 info@artifactfestival.com
                 </a>
                 <span className="hidden sm:block text-gray-600">|</span>
                 <span className="text-gray-400">Response within 24 hours</span>
