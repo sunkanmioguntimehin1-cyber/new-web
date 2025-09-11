@@ -28,7 +28,7 @@ export const Footer = () => {
                   href="mailto:ola@artifactfestival.com"
                   className="text-cyan-400 hover:text-cyan-300"
                 >
-                  📧 ola@artifactfestival.com
+                  📧 Olah@artifactfestival.com
                 </a>
               </div>
 

@@ -1,9 +1,5 @@
 import { AboutSection } from "@/components/AboutSection";
 import { FAQ } from "@/components/FAQ";
-// import { SubmitApply } from "@/components/SubmitApply";
-// import { Sponsors } from "@/components/Sponsors";
-// import { PressKit } from "@/components/PressKit";
-// import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
 import { HeroSection } from "@/components/HeroSection";
 import { PressKit } from "@/components/PressKit";

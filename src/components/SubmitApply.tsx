@@ -11,7 +11,8 @@ export const SubmitApply = () => {
       description: "Submit your film for premiere consideration",
       icon: "🎬",
       action: "external",
-      link: "https://filmfreeway.com/artifact-festival",
+      // link: "https://filmfreeway.com/artifact-festival",
+      link:"https://filmfreeway.com/ARTiFACTFilmFestival",
       color: "from-blue-500 to-cyan-500",
     },
     {

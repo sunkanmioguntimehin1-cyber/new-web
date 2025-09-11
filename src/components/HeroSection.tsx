@@ -222,14 +222,15 @@ export const HeroSection = () => {
                     <p className="text-gray-400 mb-2">For enquiries</p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-sm">
                       <a
-                        href="mailto:inquiries@artifact.com"
+                        href="mailto:inquiries@artifactfestival.com"
                         className="text-cyan-400 hover:text-cyan-300"
                       >
-                        📧 inquiries@artifact.com
+                        📧 inquiries@artifactfestival.com
                       </a>
                       <span className="hidden sm:block text-gray-600">|</span>
                       <span className="text-gray-400">
-                        Magic Box, 1933 S. Broadway
+                        1533 26th Street
+                        Santa Monica 90404 LA, CA.
                       </span>
                     </div>
                   </div>

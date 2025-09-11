@@ -8,10 +8,13 @@ export const ProgramGlance = () => {
       description:
         "Immerse yourself in visual arts exhibitions and cutting-edge fashion showcases",
       highlights: [
-        "Interactive Art Installations",
-        "AI-Fashion Design Showcase",
-        "Designer Meet & Greets",
-        "Live Art Creation",
+        // "Interactive Art Installations",
+        // "AI-Fashion Design Showcase",
+        // "Designer Meet & Greets",
+        // "Live Art Creation",
+        "Film screenings",
+        "Workshops",
+        "Art and Fashion"
       ],
       color: "from-pink-500 to-rose-500",
       icon: "🎨",
