@@ -57,14 +57,14 @@ export const TicketSection = () => {
     );
   };
 
-  const handleEventbriteCheckout = (ticketId: string) => {
-    // In a real implementation, you'd redirect to Eventbrite
-    console.log(`Eventbrite checkout for ticket: ${ticketId}`);
-    // window.open('https://www.eventbrite.com/e/your-event-id', '_blank');
-    alert(
-      "Eventbrite checkout would open here. Please integrate with your Eventbrite event."
-    );
-  };
+  // const handleEventbriteCheckout = (ticketId: string) => {
+  //   // In a real implementation, you'd redirect to Eventbrite
+  //   console.log(`Eventbrite checkout for ticket: ${ticketId}`);
+  //   // window.open('https://www.eventbrite.com/e/your-event-id', '_blank');
+  //   alert(
+  //     "Eventbrite checkout would open here. Please integrate with your Eventbrite event."
+  //   );
+  // };
 
   return (
     <section
@@ -144,7 +144,7 @@ export const TicketSection = () => {
                     <span>💳</span> Pay with Stripe
                   </button>
 
-                  <button
+                  {/* <button
                     onClick={(e) => {
                       e.stopPropagation();
                       handleEventbriteCheckout(ticket.id);
@@ -152,7 +152,7 @@ export const TicketSection = () => {
                     className="w-full border-2 border-orange-500 text-orange-500 py-3 rounded-xl font-semibold hover:bg-orange-500 hover:text-white transition-all duration-300 flex items-center justify-center gap-2"
                   >
                     <span>🎫</span> Buy on Eventbrite
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>
