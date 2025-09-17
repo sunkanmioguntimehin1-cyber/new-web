@@ -6,6 +6,7 @@ import { PressKit } from "@/components/PressKit";
 import { ProgramGlance } from "@/components/ProgramGlance";
 import { Sponsors } from "@/components/Sponsors";
 import { SubmitApply } from "@/components/SubmitApply";
+import { TicketSection } from "@/components/TicketSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <AboutSection />
       <ProgramGlance />
       <SubmitApply />
+      <TicketSection />
       <Sponsors />
       <PressKit />
       <FAQ />

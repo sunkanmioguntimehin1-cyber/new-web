@@ -4,17 +4,15 @@ export const ProgramGlance = () => {
     {
       day: "Day 1",
       date: "November 14, 2025",
-      title: "Art + Fashion",
+      title: "Art + Workshops + Screenings",
       description:
         "Immerse yourself in visual arts exhibitions and cutting-edge fashion showcases",
       highlights: [
-        // "Interactive Art Installations",
-        // "AI-Fashion Design Showcase",
-        // "Designer Meet & Greets",
-        // "Live Art Creation",
-        "Film screenings",
-        "Workshops",
-        "Art and Fashion"
+        "Interactive Art Installations",
+        "AI-Fashion Design Showcase",
+        "Designer Meet & Greets",
+        "Live Art Creation",
+       
       ],
       color: "from-pink-500 to-rose-500",
       icon: "🎨",
