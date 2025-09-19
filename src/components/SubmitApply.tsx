@@ -20,7 +20,9 @@ export const SubmitApply = () => {
       title: "Art Exhibitors",
       description: "Showcase your artwork at the festival",
       icon: "🎨",
-      action: "form",
+      // action: "form",
+      action: "external",
+      link:"https://docs.google.com/forms/d/1-ETDwUXCcc6dUzrDgT6vYeBRmzPILPzD_SbbEeC0KLk/edit?ts=68ca2e46",
       color: "from-purple-500 to-pink-500",
     },
     {

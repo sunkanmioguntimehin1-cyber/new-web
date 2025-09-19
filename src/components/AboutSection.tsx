@@ -1,4 +1,4 @@
-"use client"
+"use client";
 export const AboutSection = () => {
   return (
     <section
@@ -30,6 +30,13 @@ export const AboutSection = () => {
               explore how technology amplifies human creativity.
             </p>
           </div>
+
+          <button
+            onClick={() => window.open("https://rehobothmedia.net/", "_blank")}
+            className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-black transition-all duration-300"
+          >
+            Learn More
+          </button>
         </div>
       </div>
     </section>

@@ -171,7 +171,7 @@ export const HeroSection = () => {
                     </div>
 
                     <div className="text-cyan-400 text-sm font-mono tracking-wider mb-6">
-                      SANTA MONICA • NOV 14–15, 2025 • 10AM DAILY
+                      SANTA MONICA • NOV 21st - 22nd, 2025 • 10AM DAILY
                     </div>
                   </div>
 
@@ -205,7 +205,7 @@ export const HeroSection = () => {
                       <span className="relative z-10">Submit & Apply</span>
                     </button>
 
-                    <button
+                    {/* <button
                       onClick={() =>
                         document
                           .getElementById("about")
@@ -214,7 +214,7 @@ export const HeroSection = () => {
                       className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-black transition-all duration-300"
                     >
                       Learn More
-                    </button>
+                    </button> */}
                   </div>
 
                   {/* Contact Information */}
