@@ -54,6 +54,7 @@ export const Footer = () => {
 
               <div>
                 <p className="text-white font-medium">Other Inquiries</p>
+                <p className="text-white font-medium">Call: +14242760461</p>
                 <a
                   href="mailto:inquiries@artifactfestival.com"
                   className="text-cyan-400 hover:text-cyan-300"
