@@ -36,12 +36,12 @@ export const FAQ = () => {
       questions: [
         {
           q: "Where is ARTiFACT Festival taking place?",
-          a: "The festival will be held at Magic Box, 1933 S. Broadway, Los Angeles, CA. The venue is centrally located and accessible via public transportation.",
+          a: "The festival will be held at Famecast 1533 26th Street Santa Monica 90404 LA, CA.. The venue is centrally located and accessible via public transportation.",
         },
-        {
-          q: "Is the venue accessible?",
-          a: "Yes, Magic Box is ADA compliant with wheelchair accessibility, accessible restrooms, and accommodations for guests with disabilities. Contact us for specific accessibility needs.",
-        },
+        // {
+        //   q: "Is the venue accessible?",
+        //   a: "Yes, Magic Box is ADA compliant with wheelchair accessibility, accessible restrooms, and accommodations for guests with disabilities. Contact us for specific accessibility needs.",
+        // },
         {
           q: "Is parking available?",
           a: "Yes, there is paid parking available near the venue. We also encourage the use of rideshare services and public transportation.",
