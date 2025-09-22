@@ -10,9 +10,9 @@ export const SubmitApply = () => {
       title: "Film Submissions",
       description: "Submit your film for premiere consideration",
       icon: "🎬",
-      action: "external",
+      action: "external2",
       // link: "https://filmfreeway.com/artifact-festival",
-      link:"https://filmfreeway.com/ARTiFACTFilmFestival",
+      link: "https://filmfreeway.com/ARTiFACTFilmFestival",
       color: "from-blue-500 to-cyan-500",
     },
     {
@@ -22,7 +22,7 @@ export const SubmitApply = () => {
       icon: "🎨",
       // action: "form",
       action: "external",
-      link:"https://docs.google.com/forms/d/1-ETDwUXCcc6dUzrDgT6vYeBRmzPILPzD_SbbEeC0KLk/edit?ts=68ca2e46",
+      link: "https://docs.google.com/forms/d/1-ETDwUXCcc6dUzrDgT6vYeBRmzPILPzD_SbbEeC0KLk/edit?ts=68ca2e46",
       color: "from-purple-500 to-pink-500",
     },
     {
@@ -30,7 +30,9 @@ export const SubmitApply = () => {
       title: "Performers",
       description: "Apply to perform at ARTiFACT",
       icon: "🎭",
-      action: "form",
+      // action: "form",
+      action: "external",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSe7i99ny2i-pdw-g_60Y907GfoEmgsAA81lu5XNPz8GfItoWw/viewform?usp=header",
       color: "from-green-500 to-emerald-500",
     },
     {
@@ -38,7 +40,9 @@ export const SubmitApply = () => {
       title: "Fashion Designers",
       description: "Feature your designs on our runway",
       icon: "👗",
-      action: "form",
+      // action: "form",
+      action: "external",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSfDNDvA0pfqHpJy6ELdMBdV8v6GYwaEi0draKDmCep7ORaBdw/viewform?usp=header",
       color: "from-orange-500 to-red-500",
     },
     {
@@ -46,7 +50,9 @@ export const SubmitApply = () => {
       title: "Sponsors & Brand Activations",
       description: "Partner with ARTiFACT Festival",
       icon: "💼",
-      action: "form",
+      // action: "form",
+      action: "external",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSc-4zwKuYzuEUKOJw7gXvU304FWeOKh402e-wgruK1y-Xrs5g/viewform?usp=header",
       color: "from-indigo-500 to-purple-500",
     },
     {
@@ -54,7 +60,9 @@ export const SubmitApply = () => {
       title: "Volunteers",
       description: "Join our festival team",
       icon: "🤝",
-      action: "form",
+      // action: "form",
+      action: "external",
+      link: "https://forms.gle/rbFiqBhewzyYoDwJ7",
       color: "from-yellow-500 to-orange-500",
     },
     {
@@ -62,7 +70,9 @@ export const SubmitApply = () => {
       title: "Press & Media",
       description: "Media accreditation and coverage",
       icon: "📰",
-      action: "form",
+      // action: "form",
+      action: "external",
+      link: "https://forms.gle/BpoBZSMdPp6No3CQA",
       color: "from-teal-500 to-cyan-500",
     },
   ];
@@ -131,8 +141,10 @@ export const SubmitApply = () => {
                   <button
                     className={`w-full bg-gradient-to-r ${app.color} text-white py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-300`}
                   >
-                    {app.action === "external"
+                    {app.action === "external2"
                       ? "Submit on FilmFreeway"
+                      : app.action === "external"
+                      ? "Submit Application"
                       : "Apply Now"}
                   </button>
                 </div>
