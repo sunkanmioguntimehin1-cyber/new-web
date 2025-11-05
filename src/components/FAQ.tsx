@@ -10,11 +10,11 @@ export const FAQ = () => {
       questions: [
         {
           q: "When is the deadline for film submissions?",
-          a: "Film submissions through FilmFreeway close on October 15, 2025. Early bird submissions receive priority consideration.",
+          a: "Film submissions through FilmFreeway close on November 12, 2025. Early bird submissions receive priority consideration.",
         },
         {
           q: "What are the application deadlines for exhibitors and performers?",
-          a: "Art exhibitor, performer, and fashion designer applications are due by September 30, 2025. Late applications may be considered based on availability.",
+          a: "Art exhibitor, performer, and fashion designer applications are due by November 10, 2025. Late applications may be considered based on availability.",
         },
       ],
     },

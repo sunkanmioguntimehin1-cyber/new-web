@@ -1,4 +1,3 @@
-
 "use client";
 import { useState, useEffect } from "react";
 import logo from "@/assets/images/logo5.png";
@@ -205,16 +204,16 @@ export const HeroSection = () => {
                       <span className="relative z-10">Submit & Apply</span>
                     </button>
 
-                    {/* <button
+                    <button
                       onClick={() =>
                         document
-                          .getElementById("about")
+                          .getElementById("tickets")
                           ?.scrollIntoView({ behavior: "smooth" })
                       }
                       className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-black transition-all duration-300"
                     >
-                      Learn More
-                    </button> */}
+                      Buy tickets
+                    </button>
                   </div>
 
                   {/* Contact Information */}
@@ -229,8 +228,7 @@ export const HeroSection = () => {
                       </a>
                       <span className="hidden sm:block text-gray-600">|</span>
                       <span className="text-gray-400">
-                        1533 26th Street
-                        Santa Monica 90404 LA, CA.
+                        1533 26th Street Santa Monica 90404 LA, CA.
                       </span>
                     </div>
                   </div>
