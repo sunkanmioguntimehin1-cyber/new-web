@@ -5,22 +5,22 @@ export const TicketSection = () => {
   const [selectedTicket, setSelectedTicket] = useState<string>("");
 
   // Replace these with your actual Stripe payment link URLs
-  const STRIPE_PAYMENT_LINKS = {
-    regular: "https://buy.stripe.com/test_7sY9AU2FI2Iv0Pe9se18c01", // Replace with your actual link
-    regularpackage: "https://buy.stripe.com/test_eVqfZicgierd0Pe33Q18c02",
-    vippackage: "https://buy.stripe.com/test_aFa5kE1BE96TdC0cEq18c03",
-    groupof5package: "https://buy.stripe.com/test_bJefZi6VY0AngOcdIu18c04",
-    groupof10package: "https://buy.stripe.com/test_6oU9AU802fvh2Xm7k618c05",
-  };
+  // const STRIPE_PAYMENT_LINKS = {
+  //   regular: "https://buy.stripe.com/test_7sY9AU2FI2Iv0Pe9se18c01", // Replace with your actual link
+  //   regularpackage: "https://buy.stripe.com/test_eVqfZicgierd0Pe33Q18c02",
+  //   vippackage: "https://buy.stripe.com/test_aFa5kE1BE96TdC0cEq18c03",
+  //   groupof5package: "https://buy.stripe.com/test_bJefZi6VY0AngOcdIu18c04",
+  //   groupof10package: "https://buy.stripe.com/test_6oU9AU802fvh2Xm7k618c05",
+  // };
 
   //production
-  // const STRIPE_PAYMENT_LINKS = {
-  //   regular: "https://buy.stripe.com/7sYeVdc7Y2nV2QA7pNbEA01", // Replace with your actual link
-  //   regularpackage: "https://buy.stripe.com/aFaeVd0pg3rZ8aU5hFbEA02",
-  //   vippackage: "https://buy.stripe.com/aFa14n7RIgeL9eY25tbEA03",
-  //   groupof5package: "https://buy.stripe.com/eVq28rb3UgeLaj27pNbEA04",
-  //   groupof10package: "https://buy.stripe.com/9B66oHdc25A74YIaBZbEA05",
-  // };
+  const STRIPE_PAYMENT_LINKS = {
+    regular: "https://buy.stripe.com/7sYeVdc7Y2nV2QA7pNbEA01", // Replace with your actual link
+    regularpackage: "https://buy.stripe.com/aFaeVd0pg3rZ8aU5hFbEA02",
+    vippackage: "https://buy.stripe.com/aFa14n7RIgeL9eY25tbEA03",
+    groupof5package: "https://buy.stripe.com/eVq28rb3UgeLaj27pNbEA04",
+    groupof10package: "https://buy.stripe.com/9B66oHdc25A74YIaBZbEA05",
+  };
 
   const tickets = [
     {

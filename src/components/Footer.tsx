@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image';
 export const Footer = () => {
   return (
     <footer className="bg-black py-16">
@@ -17,6 +18,53 @@ export const Footer = () => {
               </p>
             </div>
           </div>
+
+          {/* <div>
+            <h4 className="text-white font-semibold mb-6">Contact</h4>
+            <div className="space-y-3 text-gray-400">
+              <div>
+                <p className="text-white font-medium">Festival Director</p>
+                <p>Olawunmi Oyedeji</p>
+                <a
+                  href="mailto:ola@artifactfestival.com"
+                  className="text-cyan-400 hover:text-cyan-300"
+                >
+                  📧 Olah@artifactfestival.com
+                </a>
+              </div>
+
+              <div className="pt-4">
+                <p className="text-white font-medium">General Inquiries</p>
+                <a
+                  href="mailto:info@artifactfestival.com"
+                  className="text-cyan-400 hover:text-cyan-300"
+                >
+                  📧 info@artifactfestival.com
+                </a>
+              </div>
+
+              <div>
+                <p className="text-white font-medium">Sponsorships</p>
+                <a
+                  href="mailto:sponsorships@artifactfestival.com"
+                  className="text-cyan-400 hover:text-cyan-300"
+                >
+                  📧 sponsorships@artifactfestival.com
+                </a>
+              </div>
+
+              <div>
+                <p className="text-white font-medium">Other Inquiries</p>
+                <p className="text-white font-medium">Call: +14242760461</p>
+                <a
+                  href="mailto:inquiries@artifactfestival.com"
+                  className="text-cyan-400 hover:text-cyan-300"
+                >
+                  📧 inquiries@artifactfestival.com
+                </a>
+              </div>
+            </div>
+          </div> */}
 
           <div>
             <h4 className="text-white font-semibold mb-6">Contact</h4>
@@ -61,6 +109,20 @@ export const Footer = () => {
                 >
                   📧 inquiries@artifactfestival.com
                 </a>
+              </div>
+
+              <div className="pt-4">
+                <p className="text-white font-medium mb-3">WhatsApp</p>
+                <Image
+                  src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://wa.me/2348036995949?text=Hello%20ARTiFACT%20Festival"
+                  alt="WhatsApp QR Code"
+                  width={112}
+                  height={112}
+                  className="w-28 h-28"
+                />
+                <p className="text-xs text-gray-500 mt-2">
+                  Scan to chat on WhatsApp
+                </p>
               </div>
             </div>
           </div>
