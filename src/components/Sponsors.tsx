@@ -88,7 +88,6 @@ export const Sponsors = () => {
                 key={item.name}
                 className="bg-gray-700/30 rounded-lg p-6 text-center border border-gray-600 hover:border-gray-500 transition-all duration-300"
               >
-               
                 <Image
                   src={item.logo}
                   alt={item.name}
@@ -127,11 +126,11 @@ export const Sponsors = () => {
 
               <div className="bg-white p-4 rounded-xl inline-block mb-4">
                 <Image
-                  src={donation}
+                  src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://donate.stripe.com/test_your_donation_link"
                   alt="Donation QR Code"
-                  // width={112}
-                  // height={112}
-                  className="w-36 h-36"
+                  width={112}
+                  height={112}
+                  // className="w-36 h-36"
                 />
               </div>
               <p className="text-sm text-gray-400 mb-6">
@@ -160,11 +159,11 @@ export const Sponsors = () => {
                 >
                   Tax Receipt Info
                 </button>
-              </div>
+              </div> */}
 
               <p className="text-xs text-gray-500 mt-4">
                 🔒 Secure donation powered by Stripe • Tax-deductible
-              </p> */}
+              </p>
             </div>
           </div>
         </div>
