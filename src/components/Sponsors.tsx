@@ -206,7 +206,6 @@ import sponsor1 from "@/assets/images/sponsor1.jpg";
 import sponsor2 from "@/assets/images/sponsor2.jpg";
 import sponsor3 from "@/assets/images/sponsor3.jpg";
 import sponsor4 from "@/assets/images/sponsor4.jpg";
-import sponsor5 from "@/assets/images/sponsor5.jpg";
 import sponsor6 from "@/assets/images/sponsor6.jpg";
 
 export const Sponsors = () => {
@@ -238,7 +237,7 @@ export const Sponsors = () => {
   ];
 
   // console.log("selectedDonation", selectedDonation);
-  console.log("selectedDonation", donationAmounts[selectedDonation]);
+  // console.log("selectedDonation", donationAmounts[selectedDonation]);
 
 
   const partners = [
@@ -246,7 +245,7 @@ export const Sponsors = () => {
     { name: "sponsor2", logo: sponsor2 },
     { name: "sponsor3", logo: sponsor3 },
     { name: "sponsor4", logo: sponsor4 },
-    { name: "sponsor5", logo: sponsor5 },
+    // { name: "sponsor5", logo: sponsor5 },
     { name: "sponsor6", logo: sponsor6 },
   ];
 
