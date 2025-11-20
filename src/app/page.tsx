@@ -7,6 +7,7 @@ import { ProgramGlance } from "@/components/ProgramGlance";
 import { Sponsors } from "@/components/Sponsors";
 import { SubmitApply } from "@/components/SubmitApply";
 import { TicketSection } from "@/components/TicketSection";
+import { ViewersChoiceVoting } from "@/components/ViewersChoiceVoting";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ProgramGlance />
+      <ViewersChoiceVoting />
       <SubmitApply />
       <TicketSection />
       <Sponsors />
