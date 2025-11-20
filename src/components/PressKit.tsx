@@ -1,28 +1,28 @@
 "use client"
 export const PressKit = () => {
-  const pressItems = [
-    {
-      title: "Fact Sheet",
-      description: "Complete festival information, dates, and key details",
-      icon: "📋",
-      type: "PDF",
-      action: () => alert("Fact sheet PDF download will be available soon."),
-    },
-    {
-      title: "Logo Pack",
-      description: "ARTiFACT Festival logos in various formats and resolutions",
-      icon: "🎨",
-      type: "ZIP",
-      action: () => alert("Logo pack download will be available soon."),
-    },
-    {
-      title: "Approved Photos",
-      description: "High-resolution images for media use",
-      icon: "📸",
-      type: "ZIP",
-      action: () => alert("Photo pack download will be available soon."),
-    },
-  ];
+  // const pressItems = [
+  //   {
+  //     title: "Fact Sheet",
+  //     description: "Complete festival information, dates, and key details",
+  //     icon: "📋",
+  //     type: "PDF",
+  //     action: () => alert("Fact sheet PDF download will be available soon."),
+  //   },
+  //   {
+  //     title: "Logo Pack",
+  //     description: "ARTiFACT Festival logos in various formats and resolutions",
+  //     icon: "🎨",
+  //     type: "ZIP",
+  //     action: () => alert("Logo pack download will be available soon."),
+  //   },
+  //   {
+  //     title: "Approved Photos",
+  //     description: "High-resolution images for media use",
+  //     icon: "📸",
+  //     type: "ZIP",
+  //     action: () => alert("Photo pack download will be available soon."),
+  //   },
+  // ];
 
   return (
     <section className="py-20 bg-black">
@@ -40,7 +40,7 @@ export const PressKit = () => {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
+          {/* <div className="grid md:grid-cols-3 gap-8 mb-12">
             {pressItems.map((item, index) => (
               <div
                 key={index}
@@ -64,7 +64,7 @@ export const PressKit = () => {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
 
           {/* Media Contact Information */}
           <div className="bg-gray-900/50 rounded-2xl p-8 border border-gray-700 text-center">

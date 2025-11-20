@@ -2,6 +2,7 @@ import { AboutSection } from "@/components/AboutSection";
 import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
 import { HeroSection } from "@/components/HeroSection";
+import { MovieScreeningShowTimes } from "@/components/MovieScreeningShowTimes";
 import { PressKit } from "@/components/PressKit";
 import { ProgramGlance } from "@/components/ProgramGlance";
 import { Sponsors } from "@/components/Sponsors";
@@ -15,6 +16,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ProgramGlance />
+      <MovieScreeningShowTimes />
       <ViewersChoiceVoting />
       <SubmitApply />
       <TicketSection />
