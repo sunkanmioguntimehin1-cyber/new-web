@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const ViewersChoiceVoting = () => {
   // Replace this with your actual voting form URL (Google Forms, Typeform, etc.)
-  const votingUrl = "https://forms.gle/your-voting-form-id"; // Update with actual URL
+  const votingUrl = "https://forms.gle/GM5jkFyXhx4pUJ7f6"; // Update with actual URL
 
   return (
     <section className="py-20 bg-gradient-to-b from-black to-gray-900">
@@ -70,18 +70,18 @@ export const ViewersChoiceVoting = () => {
                       </p>
                     </div>
 
-                    <div className="flex items-start gap-3">
+                    {/* <div className="flex items-start gap-3">
                       <div className="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-black">
                         2
                       </div>
                       <p className="text-gray-300 pt-1">
                         Browse the nominated works
                       </p>
-                    </div>
+                    </div> */}
 
                     <div className="flex items-start gap-3">
                       <div className="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-black">
-                        3
+                        2
                       </div>
                       <p className="text-gray-300 pt-1">
                         Cast your vote for your favorite
@@ -107,7 +107,7 @@ export const ViewersChoiceVoting = () => {
           </div>
 
           {/* Categories Section */}
-          <div className="mt-12 grid md:grid-cols-3 gap-6">
+          {/* <div className="mt-12 grid md:grid-cols-3 gap-6">
             <div className="bg-gray-800/50 rounded-2xl p-6 border border-gray-700 text-center hover:border-yellow-500/50 transition-all duration-300">
               <div className="text-3xl mb-3">🎬</div>
               <h4 className="text-white font-semibold mb-2">Best Film</h4>
@@ -133,7 +133,7 @@ export const ViewersChoiceVoting = () => {
                 Vote for the best runway look
               </p>
             </div>
-          </div>
+          </div> */}
 
           {/* Info Banner */}
           <div className="mt-12 bg-gradient-to-r from-yellow-900/30 to-orange-900/30 rounded-2xl p-6 border border-yellow-700/50 text-center">
