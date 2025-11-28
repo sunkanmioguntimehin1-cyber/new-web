@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export const HollywoodPremiere = () => {
   return (
     <section className="py-20 bg-gradient-to-br from-black via-red-950/20 to-black relative overflow-hidden">
@@ -54,7 +56,9 @@ export const HollywoodPremiere = () => {
                 {/* Image Side */}
                 <div className="relative h-[500px] md:h-auto">
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10"></div>
-                  <img
+                  <Image
+                    fill
+                    sizes="(min-width: 768px) 50vw, 100vw"
                     src="https://images.unsplash.com/photo-1594908900066-3f47337549d8?w=800&h=1000&fit=crop"
                     alt="IMA Film Premiere"
                     className="w-full h-full object-cover"
