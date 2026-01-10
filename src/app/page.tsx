@@ -11,10 +11,11 @@ import { SubmitApply } from "@/components/SubmitApply";
 import { TicketSection } from "@/components/TicketSection";
 import { ViewersChoiceVoting } from "@/components/ViewersChoiceVoting";
 
+
 export default function Home() {
   return (
     <div className="font-sans">
-      <HeroSection />
+       <HeroSection />
       <AboutSection />
       <ProgramGlance />
       <HollywoodPremiere />
@@ -25,7 +26,8 @@ export default function Home() {
       <Sponsors />
       <PressKit />
       <FAQ />
-      <Footer />
+      <Footer /> 
+   
     </div>
   );
 }

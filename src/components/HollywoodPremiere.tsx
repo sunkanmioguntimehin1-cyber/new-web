@@ -71,7 +71,7 @@ export const HollywoodPremiere = () => {
                         An Olawunmi Oyedeji Film
                       </p>
                       <h3 className="text-6xl md:text-7xl font-black text-red-500 mb-2 drop-shadow-2xl">
-                       { "IMA"}
+                        {"IMA"}
                       </h3>
                       <p className="text-white text-lg font-semibold mb-2">
                         A Story of Hope
@@ -211,6 +211,138 @@ export const HollywoodPremiere = () => {
           </div>
         </div>
       </div>
+
+      {/* Winners Section */}
+      <div className="mt-16">
+        <div className="text-center mb-10">
+          <div className="inline-block">
+            <h3 className="text-4xl md:text-5xl font-bold text-white mb-2">
+              🏆 ARTiFACT Festival{" "}
+              <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
+                Winners
+              </span>
+            </h3>
+            <p className="text-gray-400 text-lg">
+              Celebrating Excellence in Film
+            </p>
+          </div>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-6">
+          {/* Best Short Film */}
+          <div className="relative group">
+            <div className="absolute inset-0 bg-gradient-to-br from-yellow-500 to-orange-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
+            <div className="relative bg-gray-800/90 backdrop-blur-sm border border-yellow-500/30 rounded-2xl p-6 hover:border-yellow-500/60 transition-all duration-300">
+              <div className="flex items-start gap-4">
+                <div className="text-4xl">🎬</div>
+                <div className="flex-1">
+                  <h4 className="text-yellow-400 font-bold text-lg mb-2">
+                    Best Short Film
+                  </h4>
+                  <p className="text-white text-xl font-semibold">
+                    Book of Skin
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Best Feature Film */}
+          <div className="relative group">
+            <div className="absolute inset-0 bg-gradient-to-br from-red-500 to-pink-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
+            <div className="relative bg-gray-800/90 backdrop-blur-sm border border-red-500/30 rounded-2xl p-6 hover:border-red-500/60 transition-all duration-300">
+              <div className="flex items-start gap-4">
+                <div className="text-4xl">🎥</div>
+                <div className="flex-1">
+                  <h4 className="text-red-400 font-bold text-lg mb-2">
+                    Best Feature Film
+                  </h4>
+                  <p className="text-white text-xl font-semibold">
+                    Aso Ebi Diaries
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Best Documentary */}
+          <div className="relative group">
+            <div className="absolute inset-0 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
+            <div className="relative bg-gray-800/90 backdrop-blur-sm border border-cyan-500/30 rounded-2xl p-6 hover:border-cyan-500/60 transition-all duration-300">
+              <div className="flex items-start gap-4">
+                <div className="text-4xl">📽️</div>
+                <div className="flex-1">
+                  <h4 className="text-cyan-400 font-bold text-lg mb-2">
+                    Best Documentary
+                  </h4>
+                  <p className="text-white text-xl font-semibold">
+                    1776: Thierno Souleymane Baal et la révolution du Fouta
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Best Experimental/New Media Film */}
+          <div className="relative group">
+            <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
+            <div className="relative bg-gray-800/90 backdrop-blur-sm border border-purple-500/30 rounded-2xl p-6 hover:border-purple-500/60 transition-all duration-300">
+              <div className="flex items-start gap-4">
+                <div className="text-4xl">🎨</div>
+                <div className="flex-1">
+                  <h4 className="text-purple-400 font-bold text-lg mb-2">
+                    Best Experimental/New Media Film
+                  </h4>
+                  <p className="text-white text-xl font-semibold">BOTTLENECK</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Best International Film */}
+          <div className="relative group md:col-span-2">
+            <div className="absolute inset-0 bg-gradient-to-br from-green-500 to-emerald-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
+            <div className="relative bg-gray-800/90 backdrop-blur-sm border border-green-500/30 rounded-2xl p-6 hover:border-green-500/60 transition-all duration-300">
+              <div className="flex items-start gap-4">
+                <div className="text-4xl">🌍</div>
+                <div className="flex-1">
+                  <h4 className="text-green-400 font-bold text-lg mb-2">
+                    Best International Film
+                  </h4>
+                  <p className="text-white text-xl font-semibold">ker</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Additional Info Section */}
+      {/* <div className="mt-12 grid md:grid-cols-3 gap-6">
+        <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700 text-center hover:border-red-500/50 transition-all duration-300">
+          <div className="text-4xl mb-3">🌟</div>
+          <h4 className="text-white font-bold mb-2">Star-Studded Event</h4>
+          <p className="text-gray-400 text-sm">
+            Meet the cast and crew on the red carpet
+          </p>
+        </div>
+
+        <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700 text-center hover:border-orange-500/50 transition-all duration-300">
+          <div className="text-4xl mb-3">📸</div>
+          <h4 className="text-white font-bold mb-2">Photo Opportunities</h4>
+          <p className="text-gray-400 text-sm">
+            Professional photos with the premiere backdrop
+          </p>
+        </div>
+
+        <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700 text-center hover:border-yellow-500/50 transition-all duration-300">
+          <div className="text-4xl mb-3">🎬</div>
+          <h4 className="text-white font-bold mb-2">First Screening</h4>
+          <p className="text-gray-400 text-sm">
+            Be among the first to experience this powerful story
+          </p>
+        </div>
+      </div> */}
 
       <style jsx>{`
         @keyframes float {
