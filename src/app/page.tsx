@@ -4,6 +4,7 @@ import { Footer } from "@/components/Footer";
 import { HeroSection } from "@/components/HeroSection";
 import { HollywoodPremiere } from "@/components/HollywoodPremiere";
 import { MovieScreeningShowTimes } from "@/components/MovieScreeningShowTimes";
+import { PhotoGallery } from "@/components/PhotoGallery";
 import { PressKit } from "@/components/PressKit";
 import { ProgramGlance } from "@/components/ProgramGlance";
 import { Sponsors } from "@/components/Sponsors";
@@ -15,19 +16,19 @@ import { ViewersChoiceVoting } from "@/components/ViewersChoiceVoting";
 export default function Home() {
   return (
     <div className="font-sans">
-       <HeroSection />
+      <HeroSection />
       <AboutSection />
       <ProgramGlance />
       <HollywoodPremiere />
       <MovieScreeningShowTimes />
       <ViewersChoiceVoting />
+      <PhotoGallery />
       <SubmitApply />
       <TicketSection />
       <Sponsors />
       <PressKit />
       <FAQ />
-      <Footer /> 
-   
+      <Footer />
     </div>
   );
 }
