@@ -4,12 +4,14 @@ import { Footer } from "@/components/Footer";
 import { HeroSection } from "@/components/HeroSection";
 import { HollywoodPremiere } from "@/components/HollywoodPremiere";
 import { MovieScreeningShowTimes } from "@/components/MovieScreeningShowTimes";
+import { PhotoGallery } from "@/components/PhotoGallery";
 import { PressKit } from "@/components/PressKit";
 import { ProgramGlance } from "@/components/ProgramGlance";
 import { Sponsors } from "@/components/Sponsors";
 import { SubmitApply } from "@/components/SubmitApply";
 import { TicketSection } from "@/components/TicketSection";
 import { ViewersChoiceVoting } from "@/components/ViewersChoiceVoting";
+
 
 export default function Home() {
   return (
@@ -20,6 +22,7 @@ export default function Home() {
       <HollywoodPremiere />
       <MovieScreeningShowTimes />
       <ViewersChoiceVoting />
+      <PhotoGallery />
       <SubmitApply />
       <TicketSection />
       <Sponsors />

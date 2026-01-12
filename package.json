@@ -12,7 +12,8 @@
   "dependencies": {
     "@react-email/components": "^0.5.7",
     "@react-email/render": "^1.4.0",
-    "next": "15.5.2",
+    "lucide-react": "^0.561.0",
+    "next": "16.0.8",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "resend": "^6.4.0",
